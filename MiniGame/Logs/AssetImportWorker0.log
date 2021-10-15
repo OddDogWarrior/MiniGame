@@ -1,0 +1,312 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 18363.1734; Version 1909; 64bit' Language: 'en' Physical Memory: 32568 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Sarahhart777/Documents/GitHub/MiniGame/MiniGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49621
+Successfully changed project path to: C:/Users/Sarahhart777/Documents/GitHub/MiniGame/MiniGame
+C:/Users/Sarahhart777/Documents/GitHub/MiniGame/MiniGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 20.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sarahhart777/Documents/GitHub/MiniGame/MiniGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   
+    VRAM:     8011 MB
+    Driver:   27.21.14.5167
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000883 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 20.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.648 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002201 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 65.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1826.
+Total: 1.644100 ms (FindLiveObjects: 0.127200 ms CreateObjectMapping: 0.030800 ms MarkObjects: 1.426600 ms  DeleteObjects: 0.058800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Models
+  artifactKey: Guid(45f49fa667435f448a023129a090c506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Models using Guid(45f49fa667435f448a023129a090c506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132aabccb3ef27c532882d1c3f3ce37d') in 0.006479 seconds
+  Import took 0.008117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.479959 seconds.
+  path: Assets/Scripts/Boxes.cs
+  artifactKey: Guid(5e1d6bd1abf09b74c91cddcb5d5a2a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Boxes.cs using Guid(5e1d6bd1abf09b74c91cddcb5d5a2a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3add0c273e1cb13f583bd67588eb72e') in 0.061449 seconds
+  Import took 0.063175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.408360 seconds.
+  path: Assets/Scripts/Box.cs
+  artifactKey: Guid(f666e453dcd5d1447bc8b0d06c31e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Box.cs using Guid(f666e453dcd5d1447bc8b0d06c31e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9be79e4efff1e1d1054f50542e73c4a') in 0.005030 seconds
+  Import took 0.006888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000933 seconds.
+  path: Assets/Scripts/Box.cs
+  artifactKey: Guid(f666e453dcd5d1447bc8b0d06c31e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Box.cs using Guid(f666e453dcd5d1447bc8b0d06c31e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9be79e4efff1e1d1054f50542e73c4a') in 0.001907 seconds
+  Import took 0.003511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.707297 seconds.
+  path: Assets/Scripts/Box.cs
+  artifactKey: Guid(f666e453dcd5d1447bc8b0d06c31e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Box.cs using Guid(f666e453dcd5d1447bc8b0d06c31e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a191de2127eba51da0c42046ed6a9f') in 0.001939 seconds
+  Import took 0.003789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.668316 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Back.png
+  artifactKey: Guid(949a695d97850f642b1a0039b766e6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Back.png using Guid(949a695d97850f642b1a0039b766e6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce353bda1cf382c5d25b78839540c8a4') in 0.090367 seconds
+  Import took 0.092134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Materials/Bumped Glass.mat
+  artifactKey: Guid(35d6c806e68d98e4da7739c9d408c988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Materials/Bumped Glass.mat using Guid(35d6c806e68d98e4da7739c9d408c988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba53505a9746f936b4df2baed592882a') in 0.058141 seconds
+  Import took 0.059853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Meeting Table.prefab
+  artifactKey: Guid(6f31614a2ba67d249baa4b3fb51369c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/Meeting Table.prefab using Guid(6f31614a2ba67d249baa4b3fb51369c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8291745c53fd29ea6e91783cf2a2dd25') in 0.214111 seconds
+  Import took 0.215874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Bottom.png
+  artifactKey: Guid(8cab0f22a5a3c3541a13984620cdf16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Bottom.png using Guid(8cab0f22a5a3c3541a13984620cdf16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb96d488a9ce48a2e7634033eb6a27e') in 0.007813 seconds
+  Import took 0.009474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Models/Computer.fbx
+  artifactKey: Guid(1656095b7c691ba41a1316eb81813cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Models/Computer.fbx using Guid(1656095b7c691ba41a1316eb81813cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f621988284f6fac7bcfb8bde49b696e6') in 0.064780 seconds
+  Import took 0.066528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Models/Props.fbx
+  artifactKey: Guid(d13b23452d2513642bbee06d75de3fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Models/Props.fbx using Guid(d13b23452d2513642bbee06d75de3fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e62ce86a188e8a47160809711462d8') in 0.114012 seconds
+  Import took 0.115883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/RoundTable.prefab
+  artifactKey: Guid(8e32ae9339344404da059b851f53499e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/RoundTable.prefab using Guid(8e32ae9339344404da059b851f53499e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c5b60b1fe27de94303750d6de8a3a1') in 0.010729 seconds
+  Import took 0.012541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Back.png
+  artifactKey: Guid(8de32711a8f4df5448e14b373ffe990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Back.png using Guid(8de32711a8f4df5448e14b373ffe990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ed69365ef5d064a8de3275945fa1be') in 0.009448 seconds
+  Import took 0.011190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Models/OfficeRoom.fbx
+  artifactKey: Guid(7424cd104a384f54db0a95f45453ee64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Models/OfficeRoom.fbx using Guid(7424cd104a384f54db0a95f45453ee64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0a4f56c38543620fb760ee01e94a76') in 0.074708 seconds
+  Import took 0.076515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Bottom.png
+  artifactKey: Guid(ad326431ca40b2642b5db196b9d39a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Bottom.png using Guid(ad326431ca40b2642b5db196b9d39a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdceecb5aeb0a60565cd92dd003f8eba') in 0.007104 seconds
+  Import took 0.008796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Materials/Shadeless Black.mat
+  artifactKey: Guid(dc5b9c785fa7c164d82ae6f961c2d7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Materials/Shadeless Black.mat using Guid(dc5b9c785fa7c164d82ae6f961c2d7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a115391aee780c77255faf72af5e49a') in 0.023348 seconds
+  Import took 0.025096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Prefabs/ParkBench.prefab
+  artifactKey: Guid(9ff6d95a272e2d4499558631f2197578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Prefabs/ParkBench.prefab using Guid(9ff6d95a272e2d4499558631f2197578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e24660039fe0732aeec272934f7495') in 0.009215 seconds
+  Import took 0.011110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.542187 seconds.
+  path: Assets/Scripts/StartGame.cs
+  artifactKey: Guid(78315fe1bba2acc42aeee777a6ce81e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartGame.cs using Guid(78315fe1bba2acc42aeee777a6ce81e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefd5db4f2604006dd536281eaa1e5f5') in 0.008329 seconds
+  Import took 0.010176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002569 seconds.
+  path: Assets/Scripts/StartGame.cs
+  artifactKey: Guid(78315fe1bba2acc42aeee777a6ce81e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartGame.cs using Guid(78315fe1bba2acc42aeee777a6ce81e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefd5db4f2604006dd536281eaa1e5f5') in 0.001435 seconds
+  Import took 0.003502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 771.463456 seconds.
+  path: Assets/Scripts/StartGame.cs
+  artifactKey: Guid(78315fe1bba2acc42aeee777a6ce81e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartGame.cs using Guid(78315fe1bba2acc42aeee777a6ce81e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0d2ece00a32b4d038ced455c571186') in 0.001546 seconds
+  Import took 0.003757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 387.261236 seconds.
+  path: Assets/Scripts/Box.cs
+  artifactKey: Guid(f666e453dcd5d1447bc8b0d06c31e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Box.cs using Guid(f666e453dcd5d1447bc8b0d06c31e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7e2c89dbbf9c7ee051fc10799d05e1') in 0.001454 seconds
+  Import took 0.003549 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002088 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1383 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.9 MB.
+System memory in use after: 69.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1873.
+Total: 1.373300 ms (FindLiveObjects: 0.121000 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.172400 ms  DeleteObjects: 0.041700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.7 MB.
+System memory in use after: 41.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1873.
+Total: 1.449900 ms (FindLiveObjects: 0.130800 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.235600 ms  DeleteObjects: 0.037200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 497.213503 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(520153aab2431b444bdf278d7ca170a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(520153aab2431b444bdf278d7ca170a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc7872c81c27e9e179aa1da302a0d45') in 0.005889 seconds
+  Import took 0.007720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.963514 seconds.
+  path: Assets/Scripts/Box.cs
+  artifactKey: Guid(f666e453dcd5d1447bc8b0d06c31e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Box.cs using Guid(f666e453dcd5d1447bc8b0d06c31e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8b844f9fcb309e7e38a9e55aeff4e2') in 0.004378 seconds
+  Import took 0.006157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018300 seconds.
+  path: Assets/Scripts/Box.cs
+  artifactKey: Guid(f666e453dcd5d1447bc8b0d06c31e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Box.cs using Guid(f666e453dcd5d1447bc8b0d06c31e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8b844f9fcb309e7e38a9e55aeff4e2') in 0.001536 seconds
+  Import took 0.003758 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1383 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.0 MB.
+System memory in use after: 69.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 1.340700 ms (FindLiveObjects: 0.115400 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.152700 ms  DeleteObjects: 0.035100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
