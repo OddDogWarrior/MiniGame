@@ -789,13 +789,27 @@ GameObject:
   - component: {fileID: 966781950}
   - component: {fileID: 966781949}
   - component: {fileID: 966781948}
+  - component: {fileID: 966781947}
   m_Layer: 8
   m_Name: Box_2
-  m_TagString: Box 2
+  m_TagString: Box 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &966781947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966781946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b3a503debe707f4786837049baf7a62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  found: 0
 --- !u!65 &966781948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -870,7 +884,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &999887676
 GameObject:
@@ -1361,6 +1375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1655109077}
+  - component: {fileID: 1655109078}
   - component: {fileID: 1655109076}
   m_Layer: 0
   m_Name: Start game
@@ -1378,9 +1393,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1655109075}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78315fe1bba2acc42aeee777a6ce81e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d38444107abe38418ed37a130f6f9f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layer:
+    serializedVersion: 2
+    m_Bits: 64
+  numFound: 0
+  boxArray:
+  - {fileID: 1744727601}
+  - {fileID: 966781946}
 --- !u!4 &1655109077
 Transform:
   m_ObjectHideFlags: 0
@@ -1395,6 +1417,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1655109078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655109075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836e1f3bc17771f45ae461637c440974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boxCol: {fileID: 0}
+  layer:
+    serializedVersion: 2
+    m_Bits: 256
+  furniture:
+  - {fileID: 743795428}
+  - {fileID: 908594773}
+  - {fileID: 1517482875}
+  - {fileID: 682873347}
+  - {fileID: 999887676}
+  boxes:
+  - {fileID: 966781946}
+  - {fileID: 1744727601}
+  furnitureSelect: {fileID: 0}
+  sg: {fileID: 1655109076}
+  index: 0
 --- !u!1 &1741834752
 GameObject:
   m_ObjectHideFlags: 0
@@ -1504,7 +1554,7 @@ GameObject:
   - component: {fileID: 1744727604}
   - component: {fileID: 1744727603}
   - component: {fileID: 1744727602}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Box_1
   m_TagString: Box 1
   m_Icon: {fileID: 0}
@@ -1520,9 +1570,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1744727601}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f666e453dcd5d1447bc8b0d06c31e4cf, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3a503debe707f4786837049baf7a62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  found: 0
 --- !u!65 &1744727603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1597,7 +1648,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2042901109
 GameObject:
